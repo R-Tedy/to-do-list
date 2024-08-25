@@ -62,3 +62,34 @@ body{
   }
 }
 
+ul{
+  padding: 10px;
+  & li{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+}
+
+.checked{
+  text-decoration: line-through;
+}
+
+span{
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  &:hover{
+    background-color: grey;
+  }
+}
